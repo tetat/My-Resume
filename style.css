@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,400;1,600&family=Rubik:wght@400;700&display=swap');
+
+h1 {
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Ruler styles */
+.ruler {
+    border: 1px solid black;
+    width: 85%;
+    margin: 10px auto;
+}
+
+/* common margins */
+.gap-y {
+    margin: 8px 0;
+}
+
+.gap-y-sm {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.gap-y-lg {
+    margin: 15px 0;
+}
+
+.margin-left-zero {
+    margin-left: 0;
+}
+
+.margin-right {
+    margin-right: 15px;
+}
+
+/* bold semi-bold medium */
+.text-medium {
+    font-weight: 500;
+}
+
+.text-semi-bold {
+    font-weight: 600;
+}
+
+/* Resume Body */
+.container {
+    width: 55%;
+    margin: 20px auto;
+    background-color: rgb(242, 242, 242);
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+}
+
+/* Left side styles of Resume */
+.left-side {
+    background-color: rgb(54, 96, 146);
+    /* padding: 35px; */
+}
+
+.image {
+    width: 55%;
+    /* border-radius: 50%; */
+    margin: 25px auto;
+}
+
+.image img {
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.contacts-section,
+.skills-section,
+.volunteer-experience {
+    margin: 35px 25px;
+}
+
+.contacts-section span,
+a {
+    margin-left: 15px;
+}
+
+.text-modify {
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Right side styles of Resume */
+.right-side {
+    padding: 25px;
+}
+
+.myself-section,
+.education-section,
+.contest-section,
+.OJ-profiles-section {
+    margin: 35px 0;
+}
+
+.about-myself {
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
+    text-align: justify;
+}
+
+.text-modify-right {
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
