@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,400;1,600&family=Rubik:wght@400;700&display=swap');
 
+body {
+    margin: 0;
+}
+
 h1 {
     /* font-family: 'Roboto Mono', monospace; */
     font-family: 'Rubik', sans-serif;
@@ -36,8 +40,21 @@ h2 {
     margin-left: 0;
 }
 
+.margin-top-zero {
+    margin-top: 0;
+}
+
 .margin-right {
     margin-right: 15px;
+}
+
+/* common padding */
+.padding-top-sm {
+    padding-top: 8.5px;
+}
+
+.padding-top-sm-left {
+    padding-top: 11px;
 }
 
 /* bold semi-bold medium */
@@ -52,7 +69,7 @@ h2 {
 /* Resume Body */
 .container {
     width: 55%;
-    margin: 20px auto;
+    margin: 0px auto;
     background-color: rgb(242, 242, 242);
     display: grid;
     grid-template-columns: 0.6fr 1fr;
@@ -120,6 +137,6 @@ a {
 
 .display-flex {
     display: flex;
-    align-items: center;
+    align-items: initial;
     /* justify-content: center; */
 }
