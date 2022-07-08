@@ -6,13 +6,19 @@ body {
 
 h1 {
     /* font-family: 'Roboto Mono', monospace; */
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     margin: 0;
 }
 
-h2 {
+h3 {
     text-transform: uppercase;
     font-family: 'Roboto Mono', monospace;
+    margin-bottom: 2px;
+}
+
+/* text color */
+.text-white {
+    color: white;
 }
 
 /* Ruler styles */
@@ -24,12 +30,11 @@ h2 {
 
 /* common margins */
 .gap-y {
-    margin: 8px 0;
+    margin: 3px 0;
 }
 
 .gap-y-sm {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 .gap-y-lg {
@@ -68,34 +73,34 @@ h2 {
 
 /* Resume Body */
 .container {
-    width: 55%;
-    margin: 0px auto;
+    width: 50%;
+    margin: 0 auto;
     background-color: rgb(242, 242, 242);
     display: grid;
     grid-template-columns: 0.6fr 1fr;
 }
 
+.sub-container {
+    margin: 20px 0;
+}
+
 /* Left side styles of Resume */
 .left-side {
-    background-color: rgb(54, 96, 146);
-    /* padding: 35px; */
+    /* background-color: rgb(54, 96, 146); */
+    background-color: rgb(51, 167, 255);
+    padding: 5px 22px 10px 22px;
 }
 
 .image {
     width: 55%;
     /* border-radius: 50%; */
-    margin: 25px auto;
+    margin: 5px auto;
 }
 
 .image img {
+    margin-top: 0;
     border: 1px solid blue;
     border-radius: 50%;
-}
-
-.contacts-section,
-.skills-section,
-.volunteer-experience {
-    margin: 35px 25px;
 }
 
 .contacts-section span,
@@ -105,25 +110,18 @@ a {
 
 .text-modify {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Right side styles of Resume */
 .right-side {
-    padding: 25px;
-}
-
-.myself-section,
-.education-section,
-.contest-section,
-.OJ-profiles-section {
-    margin: 35px 0;
+    padding: 25px 22px 10px 22px;
 }
 
 .about-myself {
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Roboto Mono', monospace; */
     text-align: justify;
@@ -131,7 +129,7 @@ a {
 
 .text-modify-right {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
 
