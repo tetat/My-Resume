@@ -87,7 +87,7 @@ h3 {
 /* Left side styles of Resume */
 .left-side {
     /* background-color: rgb(54, 96, 146); */
-    background-color: rgb(51, 167, 255);
+    background-color: rgb(203, 202, 202);
     padding: 5px 22px 10px 22px;
 }
 
@@ -99,7 +99,7 @@ h3 {
 
 .image img {
     margin-top: 0;
-    border: 1px solid blue;
+    border: 1px solid rgb(203, 202, 202);
     border-radius: 50%;
 }
 
@@ -109,9 +109,14 @@ a {
 }
 
 .text-modify {
-    color: white;
+    /* color: white; */
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.ancor {
+    text-decoration: none;
+    color: black;
 }
 
 /* Right side styles of Resume */
