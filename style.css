@@ -1,145 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,400;1,600&family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
 body {
     margin: 0;
+    /* font-size: 24px; */
 }
 
-h1 {
-    /* font-family: 'Roboto Mono', monospace; */
-    font-family: 'Roboto Mono', sans-serif;
+.header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+h1,
+h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
-h3 {
-    text-transform: uppercase;
-    font-family: 'Roboto Mono', monospace;
-    margin-bottom: 2px;
-}
-
-/* text color */
-.text-white {
-    color: white;
-}
-
-/* Ruler styles */
-.ruler {
-    border: 1px solid black;
-    width: 85%;
-    margin: 10px auto;
-}
-
-/* common margins */
-.gap-y {
-    margin: 3px 0;
-}
-
-.gap-y-sm {
-    margin: 5px 0;
-}
-
-.gap-y-lg {
-    margin: 15px 0;
-}
-
-.margin-left-zero {
-    margin-left: 0;
-}
-
-.margin-top-zero {
-    margin-top: 0;
-}
-
-.margin-right {
-    margin-right: 15px;
-}
-
-/* common padding */
-.padding-top-sm {
-    padding-top: 8.5px;
-}
-
-.padding-top-sm-left {
-    padding-top: 11px;
-}
-
-/* bold semi-bold medium */
-.text-medium {
-    font-weight: 500;
-}
-
-.text-semi-bold {
-    font-weight: 600;
-}
-
-/* Resume Body */
-.container {
-    width: 50%;
-    margin: 0 auto;
-    background-color: rgb(242, 242, 242);
-    display: grid;
-    grid-template-columns: 0.6fr 1fr;
-}
-
-.sub-container {
-    margin: 20px 0;
-}
-
-/* Left side styles of Resume */
-.left-side {
-    /* background-color: rgb(54, 96, 146); */
-    background-color: rgb(203, 202, 202);
-    padding: 5px 22px 10px 22px;
-}
-
-.image {
-    width: 55%;
-    /* border-radius: 50%; */
-    margin: 5px auto;
-}
-
-.image img {
-    margin-top: 0;
-    border: 1px solid rgb(203, 202, 202);
+.bold-point {
+    background-color: black;
+    width: 8px;
+    height: 8px;
+    margin: 8px 10px 0 10px;
     border-radius: 50%;
 }
 
-.contacts-section span,
-a {
-    margin-left: 15px;
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
 }
 
-.text-modify {
-    /* color: white; */
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.ancor {
-    text-decoration: none;
-    color: black;
-}
-
-/* Right side styles of Resume */
-.right-side {
-    padding: 25px 22px 10px 22px;
-}
-
-.about-myself {
-    color: black;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Roboto Mono', monospace; */
-    text-align: justify;
-}
-
-.text-modify-right {
-    color: black;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.display-flex {
-    display: flex;
-    align-items: initial;
-    /* justify-content: center; */
+.body-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
