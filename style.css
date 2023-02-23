@@ -35,3 +35,8 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.bold-block {
+    display: grid;
+    grid-template-columns: 8% 92%;
+}
