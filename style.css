@@ -19,9 +19,9 @@ h4 {
 
 .bold-point {
   background-color: black;
-  width: 8px;
-  height: 8px;
-  margin: 8px 10px 0 10px;
+  width: 5px;
+  height: 5px;
+  margin: 8px 4px 0 3px;
   border-radius: 50%;
 }
 
@@ -42,5 +42,5 @@ h4 {
 
 .bold-block {
   display: grid;
-  grid-template-columns: 8% 92%;
+  grid-template-columns: 3% 97%;
 }
